@@ -19,13 +19,15 @@ public class DriverSingleton {
     public static WebDriver getDriver(){
         if (null == driver){
             switch (System.getProperty("browser")){
-                case "firefox": {
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                }
-                default: {
+                case "chrome": {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
+                    break;
+                }
+                default: {
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
                 }
             }
             driver.manage().window().maximize();
