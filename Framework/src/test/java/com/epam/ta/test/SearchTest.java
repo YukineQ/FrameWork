@@ -15,7 +15,7 @@ public class SearchTest extends CommonConditions{
 
         String searchResult=new SearchPage(driver)
                 .openPage()
-                .searchByTitle(searchTitle)
+                .searchByText(searchTitle)
                 .goToItemPage()
                 .getItemTitle();
 

@@ -36,7 +36,7 @@ public class SearchPage extends AbstractPageWithStaticUrl{
         return this;
     }
 
-    public SearchPage searchByTitle(String searchText){
+    public SearchPage searchByText(String searchText){
         searchInputField.sendKeys(searchText);
         searchButton.click();
         return this;

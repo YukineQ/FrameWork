@@ -26,9 +26,4 @@ public class LoginTest extends CommonConditions{
         String currentUrl=accountPage.getCurrentUrl();
         Assert.assertEquals(currentUrl,"https://www.walmart.com/account/?action=SignIn&rm=true");
     }
-
-    @Test
-    public void logoutTest(){
-
-    }
 }
