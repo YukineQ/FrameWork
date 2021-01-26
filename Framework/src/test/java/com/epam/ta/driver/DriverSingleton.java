@@ -21,12 +21,8 @@ public class DriverSingleton {
             switch (System.getProperty("browser")){
                 case "chrome": {
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    break;
-                }
-                default: {
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
+                    profile=new ChromeProfile("xyz")';
+                    driver = new ChromeDriver(profile);
                     break;
                 }
             }
