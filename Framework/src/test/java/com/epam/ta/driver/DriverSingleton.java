@@ -31,7 +31,7 @@ public class DriverSingleton {
                     options.setProfile(myprofile);
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver(options);
-                    break;
+                   // break;
                // }
           //}
             driver.manage().window().maximize();
