@@ -19,13 +19,14 @@ public class DriverSingleton {
     public static WebDriver getDriver(){
         if (null == driver){
             switch (System.getProperty("browser")){
+                case "chrome": {
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                }
                 default: {
-                    ProfilesIni profile = new ProfilesIni();
-                    FirefoxProfile myprofile = profile.getProfile("testXYZ");
-                    FirefoxOptions options=new FirefoxOptions();
-                    options.setProfile(myprofile);
                     WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver(options);
+                    driver = new FirefoxDriver();
                     break;
                 }
             }
