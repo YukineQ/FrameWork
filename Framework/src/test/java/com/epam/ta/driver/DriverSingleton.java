@@ -15,11 +15,21 @@ public class DriverSingleton {
 
 
     private DriverSingleton(){}
-
-    public static WebDriver getDriver(){
+    
+ public static WebDriver getDriver(){
         if (null == driver){
-             WebDriverManager.firefoxdriver().setup();
-                  driver = new FirefoxDriver();
+            switch (System.getProperty("browser")){
+                case "chrome": {
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                }
+                default: {
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                }
+            }
             driver.manage().window().maximize();
         }
         return driver;
