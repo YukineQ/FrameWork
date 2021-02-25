@@ -18,13 +18,13 @@ public class DriverSingleton {
 
     public static WebDriver getDriver(){
         if (null == driver){
-            switch (System.getProperty("browser")){
-                case "chrome": {
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    break;
-                }
-                default: {
+          //  switch (System.getProperty("browser")){
+               // case "chrome": {
+                   // WebDriverManager.chromedriver().setup();
+                   // driver = new ChromeDriver();
+                    //break;
+             //   }
+             //   default: {
                      ProfilesIni profile = new ProfilesIni();
                     FirefoxProfile myprofile = profile.getProfile("testXYZ");
                     FirefoxOptions options=new FirefoxOptions();
@@ -32,8 +32,8 @@ public class DriverSingleton {
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver(options);
                     break;
-                }
-            }
+               // }
+          //}
             driver.manage().window().maximize();
         }
         return driver;
