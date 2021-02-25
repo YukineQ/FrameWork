@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Item tests]">
+  <test thread-count="5" verbose="0" name="Favorite Item tests(failed)">
+    <classes>
+      <class name="com.epam.ta.test.ItemTest">
+        <methods>
+          <include name="deleteAddedProduct"/>
+          <include name="changeItemQuantity"/>
+          <include name="addTwoSimilarItems"/>
+          <include name="addTwoDifferentItems"/>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="stopBrowser"/>
+        </methods>
+      </class> <!-- com.epam.ta.test.ItemTest -->
+    </classes>
+  </test> <!-- Favorite Item tests(failed) -->
+</suite> <!-- Failed suite [Item tests] -->

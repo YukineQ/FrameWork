@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 164.512 s <<< FAILURE! - in TestSuite
+addTwoDifferentItems(com.epam.ta.test.ItemTest)  Time elapsed: 14.454 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.addTwoDifferentItems(ItemTest.java:44)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 342105ad-d712-4770-bdbb-58d1301b0a6c
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.addTwoDifferentItems(ItemTest.java:44)
+
+addTwoSimilarItems(com.epam.ta.test.ItemTest)  Time elapsed: 16.113 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.addTwoSimilarItems(ItemTest.java:69)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 12452, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f63b706-5237-48cc-b2c3-3b129e33b99b
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.addTwoSimilarItems(ItemTest.java:69)
+
+changeItemQuantity(com.epam.ta.test.ItemTest)  Time elapsed: 15.064 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.changeItemQuantity(ItemTest.java:102)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 15340, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3403b996-4921-4ac1-97c8-474860f9e284
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.changeItemQuantity(ItemTest.java:102)
+
+deleteAddedProduct(com.epam.ta.test.ItemTest)  Time elapsed: 14.784 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.deleteAddedProduct(ItemTest.java:86)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 15364, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 58661fa5-438d-40ee-bcb1-8da2b4d63175
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.deleteAddedProduct(ItemTest.java:86)
+

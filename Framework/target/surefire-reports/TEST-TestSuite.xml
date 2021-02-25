@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="164.512" tests="5" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="src\test\resources\testng-item.xml"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\andru\OneDrive\Документы\GitHub\Framework\Framework\target\test-classes;C:\Users\andru\OneDrive\Документы\GitHub\Framework\Framework\target\classes;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\andru\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\andru\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\andru\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\andru\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\andru\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\andru\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\andru\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\andru\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\andru\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\andru\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\andru\.m2\repository\io\github\bonigarcia\webdrivermanager\3.3.0\webdrivermanager-3.3.0.jar;C:\Users\andru\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\andru\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\andru\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\andru\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\andru\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\andru\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\andru\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\andru\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\andru\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\andru\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\andru\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\andru\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\andru\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\andru\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\andru\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\andru\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\andru\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\andru\AppData\Local\Temp\surefire1725953649002091001\surefirebooter4569510221099665181.jar C:\Users\andru\AppData\Local\Temp\surefire1725953649002091001 2021-02-25T16-26-43_510-jvmRun1 surefire7279932675200531315tmp surefire_03942146572490710136tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\andru\OneDrive\Документы\GitHub\Framework\Framework\target\test-classes;C:\Users\andru\OneDrive\Документы\GitHub\Framework\Framework\target\classes;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\andru\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\andru\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\andru\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\andru\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\andru\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\andru\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\andru\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\andru\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\andru\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\andru\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\andru\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\andru\.m2\repository\io\github\bonigarcia\webdrivermanager\3.3.0\webdrivermanager-3.3.0.jar;C:\Users\andru\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\andru\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\andru\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\andru\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\andru\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\andru\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\andru\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\andru\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\andru\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\andru\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\andru\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\andru\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\andru\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\andru\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\andru\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\andru\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\andru\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\andru"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\andru\OneDrive\Документы\GitHub\Framework\Framework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\andru\AppData\Local\Temp\surefire1725953649002091001\surefirebooter4569510221099665181.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="andru"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\andru\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\andru\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\andru\OneDrive\Документы\GitHub\Framework\Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="environment" value="dev"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\db12.1\product\12.2.0\client_1\bin;C:\app\db12\product\12.2.0\client_1\bin;C:\app\client\andru\product\12.2.0\client_2\bin;C:\app\client\andru\product\12.2.0\client_1\bin;C:\app\andru\product\12.2.0\client_1;C:\app\andru\product\12.1.0\dbhome_2\bin;C:\app\andru\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\andru\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\andru\AppData\Local\Programs\Python\Python38-32\;C:\Users\andru\AppData\Local\Microsoft\WindowsApps;C:\Users\andru\.dotnet\tools;C:\Users\andru\AppData\Local\atom\bin;C:\Program Files\JetBrains\PyCharm 2020.2.2\bin;;C:\Users\andru\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3\bin;;C:\Users\andru\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="addToOrder" classname="com.epam.ta.test.ItemTest" time="6.657"/>
+  <testcase name="addTwoDifferentItems" classname="com.epam.ta.test.ItemTest" time="14.454">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;button button--ghost&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.addTwoDifferentItems(ItemTest.java:44)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 342105ad-d712-4770-bdbb-58d1301b0a6c
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.addTwoDifferentItems(ItemTest.java:44)
+</failure>
+    <system-err><![CDATA[1614259631156	Marionette	INFO	Stopped listening on port 60078
+JavaScript error: resource://gre/modules/PageThumbUtils.jsm, line 38: TypeError: aWindow is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614259635478	geckodriver	INFO	Listening on 127.0.0.1:21910
+1614259649551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\andru\\AppData\\Local\\Temp\\rust_mozprofileowpHcB"
+1614259650768	Marionette	INFO	Listening on port 60231
+1614259651107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614259651117	Marionette	ERROR	[16] No reply from Marionette:Register
+фев 25, 2021 4:27:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://bat.bing.com/bat.js, line 1: uncaught exception: ecomm_pagetype value must be one of the allowed values
+]]></system-err>
+  </testcase>
+  <testcase name="addTwoSimilarItems" classname="com.epam.ta.test.ItemTest" time="16.113">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;button button--ghost&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.addTwoSimilarItems(ItemTest.java:69)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 12452, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f63b706-5237-48cc-b2c3-3b129e33b99b
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.addTwoSimilarItems(ItemTest.java:69)
+</failure>
+    <system-err><![CDATA[1614259665623	Marionette	INFO	Stopped listening on port 60231
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614259667962	geckodriver	INFO	Listening on 127.0.0.1:9872
+1614259682232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\andru\\AppData\\Local\\Temp\\rust_mozprofile208Vcx"
+1614259683534	Marionette	INFO	Listening on port 60394
+1614259683772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614259683783	Marionette	ERROR	[16] No reply from Marionette:Register
+фев 25, 2021 4:28:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://bat.bing.com/bat.js, line 1: uncaught exception: ecomm_pagetype value must be one of the allowed values
+JavaScript error: https://bat.bing.com/bat.js, line 1: uncaught exception: ecomm_pagetype value must be one of the allowed values
+]]></system-err>
+  </testcase>
+  <testcase name="changeItemQuantity" classname="com.epam.ta.test.ItemTest" time="15.064">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;button button--ghost&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.changeItemQuantity(ItemTest.java:102)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 15340, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3403b996-4921-4ac1-97c8-474860f9e284
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.changeItemQuantity(ItemTest.java:102)
+</failure>
+    <system-err><![CDATA[1614259699949	Marionette	INFO	Stopped listening on port 60394
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614259702410	geckodriver	INFO	Listening on 127.0.0.1:27753
+1614259717070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\andru\\AppData\\Local\\Temp\\rust_mozprofileb1jVGf"
+1614259718279	Marionette	INFO	Listening on port 60560
+1614259718615	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614259718626	Marionette	ERROR	[16] No reply from Marionette:Register
+фев 25, 2021 4:28:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://bat.bing.com/bat.js, line 1: uncaught exception: ecomm_pagetype value must be one of the allowed values
+]]></system-err>
+  </testcase>
+  <testcase name="deleteAddedProduct" classname="com.epam.ta.test.ItemTest" time="14.784">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class=&apos;button button--ghost&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='button button--ghost'] (tried for 10 second(s) with 500 milliseconds interval)
+	at com.epam.ta.test.ItemTest.deleteAddedProduct(ItemTest.java:86)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //button[@class='button button--ghost']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DESKTOP-QD9JFMA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 15364, moz:profile: C:\Users\andru\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 58661fa5-438d-40ee-bcb1-8da2b4d63175
+*** Element info: {Using=xpath, value=//button[@class='button button--ghost']}
+	at com.epam.ta.test.ItemTest.deleteAddedProduct(ItemTest.java:86)
+</failure>
+    <system-err><![CDATA[1614259733736	Marionette	INFO	Stopped listening on port 60560
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614259736408	geckodriver	INFO	Listening on 127.0.0.1:46558
+1614259751013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\andru\\AppData\\Local\\Temp\\rust_mozprofileX2y0GM"
+1614259752337	Marionette	INFO	Listening on port 60737
+1614259752542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614259752552	Marionette	ERROR	[16] No reply from Marionette:Register
+фев 25, 2021 4:29:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://bat.bing.com/bat.js, line 1: uncaught exception: ecomm_pagetype value must be one of the allowed values
+]]></system-err>
+  </testcase>
+</testsuite>

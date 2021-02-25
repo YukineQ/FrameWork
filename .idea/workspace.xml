@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f0494c-db7b-43ea-8618-accf7e4813c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Framework/src/test/java/com/epam/ta/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/src/test/java/com/epam/ta/driver/DriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/target/screenshots/2020-12-30_12-50-18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/target/surefire-reports/2020-12-30T12-50-12_158-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/target/surefire-reports/2020-12-30T12-50-12_158-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/target/surefire-reports/Item tests/Favorite Item tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/target/surefire-reports/Item tests/Favorite Item tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/target/screenshots/2021-02-25_16-24-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/target/screenshots/2021-02-25_16-24-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/target/screenshots/2021-02-25_16-25-23.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614259092104</updated>
-      <workItem from="1614259093299" duration="322000" />
+      <workItem from="1614259093299" duration="766000" />
     </task>
     <servers />
   </component>
