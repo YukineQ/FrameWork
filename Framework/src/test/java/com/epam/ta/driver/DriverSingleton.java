@@ -29,6 +29,7 @@ public class DriverSingleton {
                     FirefoxProfile profile = profileIni.getProfile("testXYZ");
                     FirefoxOptions options = new FirefoxOptions();
                     options.setProfile(profile);
+                    WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver(options);
                     break;
                 }
